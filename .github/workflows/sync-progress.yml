@@ -1,4 +1,4 @@
-name: Check DESEN progress
+name: Sync DESEN progress
 
 on:
   workflow_dispatch:
@@ -13,18 +13,48 @@ permissions:
 
 concurrency:
   group: sync-desen-progress
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      # The organization-wide GITHUB_TOKEN remains read-only. This short-lived token is
+      # issued by a private GitHub App installed only on desenlab/.github and is revoked
+      # automatically when the job finishes.
+      - name: Create a repository-scoped GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          app-id: ${{ secrets.DESEN_PROFILE_SYNC_APP_ID }}
+          private-key: ${{ secrets.DESEN_PROFILE_SYNC_PRIVATE_KEY }}
+          owner: desenlab
+          repositories: .github
+          permission-contents: write
+
       - name: Check out the organization profile
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: Synchronize public progress
         run: node scripts/sync-progress.mjs
 
-      - name: Require the checked-in profile to be current
-        run: git diff --exit-code -- profile/README.md
+      - name: Publish an updated profile
+        shell: bash
+        run: |
+          if git diff --quiet -- profile/README.md; then
+            echo "DESEN organization progress is already current."
+            exit 0
+          fi
+
+          git diff --check
+          git config user.name "Selman Ay"
+          git config user.email "51993713+selmanays@users.noreply.github.com"
+          git add profile/README.md
+          git commit -m "Update DESEN progress"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main

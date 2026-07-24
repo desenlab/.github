@@ -6,6 +6,13 @@ DESEN is an open protocol and Web/React reference implementation for a model in 
 author production interfaces as validated data—rather than handing static design files to
 developers for reimplementation.
 
+**Why the name DESEN?**
+
+The name comes from **DES**ign **EN**vironment. It expresses the long-term vision behind the
+project: design should not end as a static artifact waiting to be rebuilt. DESEN is intended to be
+the shared environment where designers compose production experiences and applications safely
+execute them through capabilities defined by developers.
+
 **Traditional workflow**
 
 `Design file → Handoff → Frontend rebuild → Drift`

@@ -1,4 +1,4 @@
-name: Sync DESEN progress
+name: Check DESEN progress
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ on:
     - cron: "23 * * * *"
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: sync-desen-progress
@@ -26,14 +26,5 @@ jobs:
       - name: Synchronize public progress
         run: node scripts/sync-progress.mjs
 
-      - name: Commit an updated profile
-        run: |
-          git config user.name "Selman Ay"
-          git config user.email "51993713+selmanays@users.noreply.github.com"
-          git add profile/README.md
-          if git diff --cached --quiet; then
-            echo "No progress change."
-            exit 0
-          fi
-          git commit -m "Update DESEN progress"
-          git push
+      - name: Require the checked-in profile to be current
+        run: git diff --exit-code -- profile/README.md

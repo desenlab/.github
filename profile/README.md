@@ -50,9 +50,9 @@ from the public implementation repository.
 
 <!-- desen-progress:start -->
 
-**Overall:** `█████████░░░░░░░░░░░░░░░░` **53 / 144 tasks complete (37%)**
+**Overall:** `█████████░░░░░░░░░░░░░░░░` **54 / 145 tasks complete (37%)**
 
-**M04 complete:** `████████████████` **16 / 16 tasks complete (100%)**
+**M04 complete:** `█████████████████` **17 / 17 tasks complete (100%)**
 
 **Proof gates:** **5 / 13 complete** · **Next:** `M05-T01`
 

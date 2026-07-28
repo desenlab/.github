@@ -50,11 +50,11 @@ from the public implementation repository.
 
 <!-- desen-progress:start -->
 
-**Overall:** `█████████░░░░░░░░░░░░░░░░` **54 / 145 tasks complete (37%)**
+**Overall:** `███████████░░░░░░░░░░░░░░` **63 / 145 tasks complete (43%)**
 
-**M04 complete:** `█████████████████` **17 / 17 tasks complete (100%)**
+**M05 complete:** `█████████` **9 / 9 tasks complete (100%)**
 
-**Proof gates:** **5 / 13 complete** · **Next:** `M05-T01`
+**Proof gates:** **6 / 13 complete** · **Next:** `M06-T01`
 
 [Follow the detailed task board](https://github.com/desenlab/desen-app/blob/main/docs/plan/TASKS.md)
 

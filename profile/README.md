@@ -54,7 +54,7 @@ from the public implementation repository.
 
 **M06 complete:** `███████████` **11 / 11 tasks complete (100%)**
 
-**Proof gates:** **7 / 13 complete** · **Next:** `M07-T02`
+**Proof gates:** **7 / 13 complete** · **Next infrastructure:** `I07-02` · **Next implementation:** `M07-T02` (paused)
 
 [Follow the detailed task board](https://github.com/desenlab/desen-app/blob/main/docs/plan/TASKS.md)
 

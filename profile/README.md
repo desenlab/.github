@@ -50,11 +50,11 @@ from the public implementation repository.
 
 <!-- desen-progress:start -->
 
-**Overall:** `██████████████░░░░░░░░░░░` **84 / 145 tasks complete (58%)**
+**Overall:** `███████████████░░░░░░░░░░` **85 / 145 tasks complete (59%)**
 
-**M06 complete:** `███████████` **11 / 11 tasks complete (100%)**
+**M07 complete:** `███████████` **11 / 11 tasks complete (100%)**
 
-**Proof gates:** **7 / 13 complete** · **Next infrastructure:** `I07-04` (observation `0 / 20`) · **Next implementation:** `M07-T11` (`NOT_STARTED`)
+**Proof gates:** **7 / 13 complete** · **Next infrastructure:** `I07-04` (observation `0 / 20`) · **G07:** `NOT_STARTED` until I07-04 completes
 
 [Follow the detailed task board](https://github.com/desenlab/desen-app/blob/main/docs/plan/TASKS.md)
 

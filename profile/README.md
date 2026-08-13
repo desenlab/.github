@@ -54,7 +54,7 @@ from the public implementation repository.
 
 **M07 complete:** `███████████` **11 / 11 tasks complete (100%)**
 
-**Proof gates:** **7 / 13 complete** · **I07-04:** `IN_PROGRESS` (hosted observation `20 / 20`, zero false negatives) · **G07:** awaiting hosted cutover/closure
+**Proof gates:** **8 / 13 complete** · **I07-04:** `DONE` (`20 / 20`, zero false negatives) · **G07:** `DONE` · **Next:** `M08-T01`
 
 [Follow the detailed task board](https://github.com/desenlab/desen-app/blob/main/docs/plan/TASKS.md)
 

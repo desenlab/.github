@@ -50,11 +50,11 @@ from the public implementation repository.
 
 <!-- desen-progress:start -->
 
-**Overall:** `██████████████████░░░░░░░` **108 / 145 tasks complete (74%)**
+**Overall:** `███████████████████░░░░░░` **109 / 145 tasks complete (75%)**
 
-**M08 complete:** `██████████` **10 / 10 tasks complete (100%)**
+**M09 complete:** `██████████████` **14 / 14 tasks complete (100%)**
 
-**Proof gates:** **10 / 13 complete** · **I07-04:** `DONE` (`20 / 20`, zero false negatives) · **CI-02:** conditional `DONE` on this exact PR head's hosted `Quality gate`; canonical status remains `IN_PROGRESS` while it is pending (prior implementation-head receipt recorded) · **G08:** `DONE` · **Next:** `M09-T14`
+**Proof gates:** **11 / 13 complete** · **I07-04:** `DONE` (`20 / 20`, zero false negatives) · **CI-02:** conditional `DONE` on this exact PR head's hosted `Quality gate`; canonical status remains `IN_PROGRESS` while it is pending (prior implementation-head receipt recorded) · **G09:** `DONE` · **Next:** `M10-T01`
 
 [Follow the detailed task board](https://github.com/desenlab/desen-app/blob/main/docs/plan/TASKS.md)
 

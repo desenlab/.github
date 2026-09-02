@@ -54,7 +54,7 @@ from the public implementation repository.
 
 **M09 complete:** `██████████████` **14 / 14 tasks complete (100%)**
 
-**Proof gates:** **11 / 13 complete** · **I07-04:** `DONE` (`20 / 20`, zero false negatives) · **CI-02:** conditional `DONE` on this exact PR head's hosted `Quality gate`; canonical status remains `IN_PROGRESS` while it is pending (prior implementation-head receipt recorded) · **G09:** `DONE` · **M10-T02:** `DONE` · **Next:** `M10-T03`
+**Proof gates:** **11 / 13 complete** · **I07-04:** `DONE` (`20 / 20`, zero false negatives) · **CI-02:** conditional `DONE` on this exact PR head's hosted `Quality gate`; canonical status remains `IN_PROGRESS` while it is pending (prior implementation-head receipt recorded) · **G09:** `DONE` · **M10-T03:** `DONE` · **Next:** `M10-T04`
 
 [Follow the detailed task board](https://github.com/desenlab/desen-app/blob/main/docs/plan/TASKS.md)
 

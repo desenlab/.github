@@ -50,11 +50,11 @@ from the public implementation repository.
 
 <!-- desen-progress:start -->
 
-**Overall:** `████████████████████░░░░░` **118 / 148 tasks complete (80%)**
+**Overall:** `████████████████████░░░░░` **121 / 148 tasks complete (82%)**
 
 **M09 complete:** `██████████████` **14 / 14 tasks complete (100%)**
 
-**Proof gates:** **11 / 13 complete** · **I07-04:** `DONE` (`20 / 20`, zero false negatives) · **G09:** `DONE` · **AR-01:** `DONE` · **M10-T05:** `DONE` · **M10-T06:** `DONE` closure candidate pending exact-head hosted checks and fresh main · **P-07:** `PROVEN` · **PF-059:** `CLOSED` · **Next product task:** `M10-T07` (after T06 closure)
+**Proof gates:** **11 / 13 complete** · **I07-04:** `DONE` (`20 / 20`, zero false negatives) · **G09:** `DONE` · **AR-01:** `DONE` · **M10-T08:** `DONE` ([fresh main PASS](https://github.com/desenlab/desen-app/actions/runs/34230382825)) · **P-07 / P-12:** `PROVEN` · **PF-059:** `CLOSED` · **Current task:** `M10-T09` (conditional closure candidate; pause before G10)
 
 [Follow the detailed task board](https://github.com/desenlab/desen-app/blob/main/docs/plan/TASKS.md)
 

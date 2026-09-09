@@ -52,9 +52,9 @@ from the public implementation repository.
 
 **Overall:** `████████████████████░░░░░` **121 / 148 tasks complete (82%)**
 
-**M09 complete:** `██████████████` **14 / 14 tasks complete (100%)**
+**M10 complete:** `████████████` **12 / 12 tasks complete (100%)**
 
-**Proof gates:** **11 / 13 complete** · **I07-04:** `DONE` (`20 / 20`, zero false negatives) · **G09:** `DONE` · **AR-01:** `DONE` · **M10-T08:** `DONE` ([fresh main PASS](https://github.com/desenlab/desen-app/actions/runs/34230382825)) · **P-07 / P-12:** `PROVEN` · **PF-059:** `CLOSED` · **Current task:** `M10-T09` (conditional closure candidate; pause before G10)
+**Proof gates:** **12 / 13 complete** · **I07-04:** `DONE` (`20 / 20`, zero false negatives) · **G09:** `DONE` · **G10:** `DONE` (conditional closure candidate) · **AR-01:** `DONE` · **P-07 / P-12:** `PROVEN` · **PF-059:** `CLOSED` · **Current task:** `G10` exact-head hosted closure
 
 [Follow the detailed task board](https://github.com/desenlab/desen-app/blob/main/docs/plan/TASKS.md)
 

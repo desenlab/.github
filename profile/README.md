@@ -54,7 +54,7 @@ from the public implementation repository.
 
 **M10 complete:** `████████████` **12 / 12 tasks complete (100%)**
 
-**Proof gates:** **12 / 13 complete** · **I07-04:** `DONE` (`20 / 20`, zero false negatives) · **G09:** `DONE` · **G10:** `DONE` (conditional closure candidate) · **AR-01:** `DONE` · **P-07 / P-12:** `PROVEN` · **PF-059:** `CLOSED` · **Current task:** `G10` exact-head hosted closure
+**Proof gates:** **11 / 13 complete** · **G10:** `DONE` · **Runtime Core baseline:** frozen ·
 
 [Follow the detailed task board](https://github.com/desenlab/desen-app/blob/main/docs/plan/TASKS.md)
 

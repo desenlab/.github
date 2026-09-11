@@ -50,11 +50,11 @@ from the public implementation repository.
 
 <!-- desen-progress:start -->
 
-**Overall:** `████████████████████░░░░░` **121 / 148 tasks complete (82%)**
+**Overall:** `█████████████████░░░░░░░░` **122 / 176 tasks complete (69%)**
 
 **M10 complete:** `████████████` **12 / 12 tasks complete (100%)**
 
-**Proof gates:** **11 / 13 complete** · **G10:** `DONE` · **Runtime Core baseline:** frozen ·
+**Proof gates:** **11 / 14 complete** · **G10:** `DONE` · **Runtime Core baseline:** frozen ·
 
 [Follow the detailed task board](https://github.com/desenlab/desen-app/blob/main/docs/plan/TASKS.md)
 

@@ -50,7 +50,7 @@ from the public implementation repository.
 
 <!-- desen-progress:start -->
 
-**Overall:** `██████████████████░░░░░░░` **127 / 176 tasks complete (72%)**
+**Overall:** `██████████████████░░░░░░░` **128 / 176 tasks complete (73%)**
 
 **M10 complete:** `████████████` **12 / 12 tasks complete (100%)**
 
